@@ -1,0 +1,19 @@
+
+[
+    {
+      "question": "What is 2+2?",
+      "answers": [
+        { "text": "3", "isCorrect": false },
+        { "text": "4", "isCorrect": true },
+        { "text": "5", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "What color is the sky?",
+      "answers": [
+        { "text": "Green", "isCorrect": false },
+        { "text": "Blue", "isCorrect": true },
+        { "text": "Red", "isCorrect": false }
+      ]
+    }
+  ]
