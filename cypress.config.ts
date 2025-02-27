@@ -3,12 +3,12 @@ import viteConfig from './vite.config';
 
 export default defineConfig({
   component: {
-    port: 5173,
     devServer: {
       framework: 'react',
       bundler: 'vite',
       viteConfig,
     },
+    indexHtmlFile: "cypress/support/component-index.html",
   },
 
   e2e: {
